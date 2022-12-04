@@ -9,7 +9,7 @@ curl -X POST \
         "topics": "emqx_test",
         "name": "kafka-connect-splunk",
         "indexes": "flory",
-        "splunk.hec.token": "82f71a62-e053-49c3-8483-21155b463142",
+        "splunk.hec.token": "<splunk-token-which-maps-to-index>",
         "splunk.hec.uri": "https://http-inputs-fieldin.splunkcloud.com:443",
         "splunk.hec.ssl.validate.certs": "false",
         "splunk.hec.raw": "true",
